@@ -1,4 +1,5 @@
 age=input('>How old are you? ') #what is wrong with this line of code? Hint: see pages 62-64
+age=int(age)
 if age < 10:
 	print('   You are too young to code!')
 elif age > 20:
